@@ -1,6 +1,6 @@
-//2.3 Footer
+//2.3 Footerfooter-social-icon
 //================ FOOTER================//
-.footer-sky {
+.footer-sky  {
     &.footer-sky-v4 {
         padding-top: 45px;
         background: url("../images/Home-4/footer.jpg") no-repeat;
@@ -161,6 +161,18 @@
         }
     }
 }
+.footer-social-icon {
+    .fa {
+        line-height: 64px;
+        color: #ffffff;
+        font-size: 20px;
+        padding-left: 43px;
+        &:hover {
+            color: #8e7037;
+        }
+    }
+}
+
 .footer-bottom {
     &.bottom-v3 {
         line-height: 85px;

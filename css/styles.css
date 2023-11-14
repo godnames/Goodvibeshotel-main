@@ -14326,3 +14326,19 @@ a {
     padding-bottom: 55px !important; } }
 
 /*# sourceMappingURL=styles.css.map */
+.whatsapp-icon{
+  position: fixed;
+left: 50px;
+bottom: 40px;
+width: 70px;
+height: 70px;
+z-index: 999;
+
+}
+.footer-social-icon {
+  text-align: right;
+}
+.footer-social-icon a{
+  padding: 10px;
+  font-size: 30px;
+}

@@ -759,7 +759,8 @@
 .gallery-isotope {
     @media screen and (max-width: 1200px) {
         &.col-3 {
-            .item-isotope, .item-size, {
+            .item-isotope, .item-size,
+            {
                 width: 33.33333% !important;
             }
         }

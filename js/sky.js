@@ -569,3 +569,11 @@ $(document).ready(function() {
     });
 
 });
+
+function openWhatsAppChat() {
+    // Replace the phone number and message text with your own
+    var phoneNumber = "+919967333442";
+    var message = "Hi%20I%20am%20looking%20for%20hotel%20marketing%20services%20Can%20we%20connect%3F";
+    var whatsappURL = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + message;
+    window.open(whatsappURL);
+}

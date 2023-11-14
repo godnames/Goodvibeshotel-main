@@ -25,7 +25,10 @@
 </head>
 
 <body>
-
+    <a href="#" class="whatsapp-icon" onclick="openWhatsAppChat()" style="display: inline-flex; align-items: center; text-decoration: none;">
+        <img src="images/whatsapp.png" alt="WhatsApp Icon" style="vertical-align: middle; max-width: 70px;">
+        
+    </a>
     <!-- HEADER -->
     <header class="header-sky">
         <div class="container">
@@ -70,7 +73,9 @@
                             <span class="icon-bar "></span>
                             <span class="icon-bar "></span>
                         </button>
-                        <a class="navbar-brand" href="file:///E:/Xampp/htdocs/skyline/index.html" title="Skyline"><img src="images/Home-1/gvh-header1-logo.png" alt="#"></a>
+                        <a class="navbar-brand" href="index.html" title="Good Vibes"><img src="images/Home-1/gvh-header1-logo.png" alt="#" style="z-index:99999;
+                        width: 198px;
+                            margin-top: -60px;"></a>
                     </div>
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
@@ -84,6 +89,7 @@
                                     <li><a href="index_4.html" title="">Home 4</a></li>
                                 </ul>
                             </li> -->
+                            <li><a href="about.html" title="About">About</a></li>
                             <li class="dropdown ">
                                 <a href="#room_1.html" title="Our Location" class="dropdown-toggle" data-toggle="dropdown">Our Locations<b class="caret"></b></a>
                                 <ul class="dropdown-menu icon-fa-caret-up submenu-hover">
@@ -179,7 +185,7 @@
 
                                 </ul> -->
                             </li>
-                            <li><a href="about.html" title="About">About</a></li>
+                            
                             <li><a href="contact.html" title="Contact">Contact</a></li>
                         </ul>
                     </div>
@@ -320,7 +326,7 @@
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
                                 <div class="wrap-box">
                                     <div class="box-img">
-                                        <img src="images/Home-1/our-1.jpg" class="img-responsive" alt="PLuxury Room" title="Luxury Room">
+                                        <img src="images/Home-1/mumbai.png" class="img-responsive" alt="PLuxury Room" title="Luxury Room">
                                     </div>
                                     <div class="rooms-content">
                                         <h4 class="sky-h4">Mumbai</h4>
@@ -331,7 +337,7 @@
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
                                 <div class="wrap-box">
                                     <div class="box-img">
-                                        <img src="images/Home-1/our-2.jpg" class="img-responsive" alt="Double Room" title="Double Room">
+                                        <img src="images/Home-1/goa.png" class="img-responsive" alt="Double Room" title="Double Room">
                                     </div>
                                     <div class="rooms-content">
                                         <h4 class="sky-h4">Goa</h4>
@@ -342,10 +348,21 @@
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
                                 <div class="wrap-box">
                                     <div class="box-img">
-                                        <img src="images/Home-1/our-3.jpg" class="img-responsive" alt="Family Room" title="Family Room">
+                                        <img src="images/Home-1/guwahati.jpg" class="img-responsive" alt="Family Room" title="Family Room">
                                     </div>
                                     <div class="rooms-content">
                                         <h4 class="sky-h4">Guwahati </h4>
+                                        <!-- <p class="price">$320 / Per Night</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
+                                <div class="wrap-box">
+                                    <div class="box-img">
+                                        <img src="images/Home-1/Lonavala.jpg" class="img-responsive" alt="PLuxury Room" title="Luxury Room">
+                                    </div>
+                                    <div class="rooms-content">
+                                        <h4 class="sky-h4">Lonavala</h4>
                                         <!-- <p class="price">$320 / Per Night</p> -->
                                     </div>
                                 </div>
@@ -384,6 +401,8 @@
                                 </div>
                             </div> -->
                         </div>
+                        
+
                         <!-- <div class="item ">
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
                                 <div class="wrap-box">
@@ -569,7 +588,7 @@
                         <div class="icon-best">
                             <img src="images/Home-1/about-icon-5.png" class="img-responsive" alt="Image">
                         </div>
-                        <h6 class="sky-h6">AwESOME pACKAGES</h6>
+                        <h6 class="sky-h6">AWESOME pACKAGES</h6>
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
@@ -577,7 +596,7 @@
                         <div class="icon-best">
                             <img src="images/Home-1/about-icon-6.png" class="img-responsive" alt="Image">
                         </div>
-                        <h6 class="sky-h6">cLEANING eVERDAY</h6>
+                        <h6 class="sky-h6">CLEANING eVERDAY</h6>
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
@@ -585,7 +604,7 @@
                         <div class="icon-best">
                             <img src="images/Home-1/about-icon-7.png" class="img-responsive" alt="Image">
                         </div>
-                        <h6 class="sky-h6">bUTFFET Breakfast</h6>
+                        <h6 class="sky-h6">BUFFET Breakfast</h6>
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
@@ -602,25 +621,25 @@
     <!-- END / BEST -->
 
     <!-- TESTIMONOALS -->
-    <section class="testimonials">
+    <!-- <section class="testimonials">
         <div class="testimonials-h">
             <div class="testimonials-content">
                 <div class="container">
                     <div id="testimonials" class="owl-carousel owl-theme">
                         <div class="item ">
-                            <div class="img-testimonials"><img src="images/Home-1/about-testimonials-img.png" alt="#"></div>
+                            <div class="img-testimonials"><img src="images/Home-1/user1.png" alt="#"></div>
                             <p class="testimonials-p"><span>“</span>​‌ This is the only place to stay in Catalina! I have stayed in the cheaper hotels and they were fine, but this is just the icing on the cake! After spending the day bike riding and hiking to come back and enjoy a glass of wine while looking out your <span>​‌​‌”</span> ocean view window and then to top it all off...</p>
                             <h5 class="sky-h5">JULIA ROSE</h5>
                             <p class="testimonials-p1">From Los Angeles, California</p>
                         </div>
                         <div class="item">
-                            <div class="img-testimonials"><img src="images/Home-1/about-testimonials-img.png" alt="#"></div>
-                            <p class="testimonials-p"><span>“</span>​‌ Thisis the only place to stay in Catalina! I have stayed in the cheaper hotels and they were fine, but this is just the icing onthe cake! After spending the day bike riding and hiking to come back and enjoy a glass of wine while looking out your <span>​‌​‌”</span> ocean view window and then to top it all off...</p>
+                            <div class="img-testimonials"><img src="images/Home-1/user2.png" alt="#"></div>
+                            <p class="testimonials-p"><span>“</span>​‌ This is the only place to stay in Catalina! I have stayed in the cheaper hotels and they were fine, but this is just the icing onthe cake! After spending the day bike riding and hiking to come back and enjoy a glass of wine while looking out your <span>​‌​‌”</span> ocean view window and then to top it all off...</p>
                             <h5 class="sky-h5">JULIA ROSE</h5>
                             <p class="testimonials-p1">From Los Angeles, California</p>
                         </div>
                         <div class="item">
-                            <div class="img-testimonials"><img src="images/Home-1/about-testimonials-img.png" alt="#"></div>
+                            <div class="img-testimonials"><img src="images/Home-1/user3.png" alt="#"></div>
                             <p class="testimonials-p"><span>“</span>​‌ This is the only place to stay in Catalina! I have stayed in the cheaper hotels and they were fine, but this is just the icing on the cake! After spending the day bike riding and hiking to come back and enjoy a glass of wine while looking out your <span>​‌​‌”</span> ocean view window and then to top it all off...</p>
                             <h5 class="sky-h5">JULIA ROSE</h5>
                             <p class="testimonials-p1">From Los Angeles, California</p>
@@ -629,7 +648,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- END / TESTIMONOALS -->
 
     <!--OUR-EVENTS-->
@@ -753,7 +772,7 @@
     <!-- END / OUR NEWS -->
 
     <!-- OUR-GALLERY-->
-    <section class="gallery-our">
+    <!-- <section class="gallery-our">
         <div class="container-fluid">
             <div class="gallery">
                 <h2 class="title-gallery">Our Gallery</h2>
@@ -772,11 +791,11 @@
                                 <div class="gallery_product col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/Home-1/gallery-1.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/Home-1/gallery-11.png" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main " title>
                                             <div class="gallery-icon">
-                                                <a class="lightbox " href="images/Home-1/gallery-1-1.jpg" data-littlelightbox-group="gallery" title="Luxury Room view all"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                                <a class="lightbox " href="images/Home-1/gallery-1-11.png" data-littlelightbox-group="gallery" title="Luxury Room view all"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -784,11 +803,11 @@
                                 <div class="gallery_product col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/Home-1/gallery-2.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/Home-1/gallery-1.png" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
-                                                <a class="lightbox " href="images/Home-1/gallery-2-2.jpg" data-littlelightbox-group="gallery" title="HIHI"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                                <a class="lightbox " href="images/Home-1/gallery-1-1.png" data-littlelightbox-group="gallery" title="HIHI"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -796,11 +815,11 @@
                                 <div class="gallery_product col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/Home-1/gallery-3.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/Home-1/gallery-12.png" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
-                                                <a class="lightbox " href="images/Home-1/gallery-3-3.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                                <a class="lightbox " href="images/Home-1/gallery-1-12.png" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -808,11 +827,11 @@
                                 <div class="gallery_product col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/Home-1/gallery-4.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/Home-1/gallery-13.png" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
-                                                <a class="lightbox " href="images/Home-1/gallery-4-4.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                                <a class="lightbox " href="images/Home-1/gallery-1-13.png" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -820,11 +839,11 @@
                                 <div class="gallery_product col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/Home-1/gallery-5.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/Home-1/gallery-15.png" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
-                                                <a class="lightbox " href="images/Home-1/gallery-5-5.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                                <a class="lightbox " href="images/Home-1/gallery-1-15.png" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -832,11 +851,11 @@
                                 <div class="gallery_product col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/Home-1/gallery-6.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/Home-1/gallery-16.png" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
-                                                <a class="lightbox " href="images/Home-1/gallery-6-6.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                                <a class="lightbox " href="images/Home-1/gallery-1-16.png" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -844,11 +863,11 @@
                                 <div class="gallery_product col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/Home-1/gallery-7.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/Home-1/gallery-17.png" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
-                                                <a class="lightbox " href="images/Home-1/gallery-7-7.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                                <a class="lightbox " href="images/Home-1/gallery-1-17.png" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -856,11 +875,11 @@
                                 <div class="gallery_product col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/Home-1/gallery-8.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/Home-1/gallery-14.png" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
-                                                <a class="lightbox " href="images/Home-1/gallery-8-8.jpg" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
+                                                <a class="lightbox " href="images/Home-1/gallery-1-14.png" data-littlelightbox-group="gallery" title="Flying is life"><i class="ion-ios-plus-empty" aria-hidden="true" ></i> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -874,7 +893,7 @@
                                 <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/Home-1/gallery-6.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/Home-1/gallery-6.png" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -886,7 +905,7 @@
                                 <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/Home-1/gallery-7.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/Home-1/gallery-7.png" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -898,7 +917,7 @@
                                 <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 ">
                                     <div class="wrap-box">
                                         <div class="box-img">
-                                            <img src="images/Home-1/gallery-8.jpg" class="img-responsive" alt="Product" title="images products">
+                                            <img src="images/Home-1/gallery-8.png" class="img-responsive" alt="Product" title="images products">
                                         </div>
                                         <div class="gallery-box-main">
                                             <div class="gallery-icon">
@@ -1019,20 +1038,20 @@
                         </div>
                     </div>
                 </div>
-                <!-- end-tab-content -->
+                <!-- end-tab-content 
                 <div class="text-center">
                     <button type="button" class="btn btn-default btn-our">VIEW MORE</button>
                 </div>
             </div>
-            <!-- /gallery -->
+            <!-- /gallery 
         </div>
-        <!-- /container -->
-    </section>
+        <!-- /container -
+    </section> -->
     <!-- END / OUR GALLERY -->
 
     <!--FOOTER-->
     <footer class="footer-sky">
-        <div class="footer-top">
+        <!-- <div class="footer-top">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1">
@@ -1065,8 +1084,8 @@
                     </div>
                 </div>
             </div>
-            <!-- /container -->
-        </div>
+            <!-- /container 
+        </div> -->
         <!-- /footer-top -->
         <div class="footer-mid">
             <div class="container">
@@ -1076,35 +1095,37 @@
                             <a href="index.html" title="Skyline"><img src="images/Home-1/gvh-footer1-logo.png" alt="Image"></a>
                         </div>
                     </div>
-                    <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-lg-offset-1 col-md-offset-1  ">
-                        <div class="list-content">
-                            <ul>
-                                <li><a href="attractions.html" title="">Site Map</a></li>
-                                <li><a href="tems_condition_1.html" title="">Term & Conditions</a></li>
-                                <li><a href="#" title="">Privacy Policy</a></li>
-                                <li><a href="#" title="">Help</a></li>
-                                <li><a href="#" title="">Affiliate</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    
                     <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-lg-offset-1 col-md-offset-1 ">
+                        <h4 style="color: white; font-size: 30px;">Quick Link</h4>
                         <div class="list-content ">
                             <ul>
-                                <li><a href="#" title="">Our Location</a></li>
                                 <li><a href="#" title="">Career</a></li>
                                 <li><a href="about.html" title="">About Us</a></li>
-                                <li><a href="contact.html" title="">Contact Us</a></li>
+                                <li><a href="gallery_1.html" title="">Photo & Video Gallery</a></li>
+                                <li><a href="attractions.html" title="">Attractions</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-lg-offset-1 col-md-offset-1">
                         <div class="list-content ">
                             <ul>
-                                <li><a href="#" title="">FAQS</a></li>
+                                <br><br><br>
                                 <li><a href="#" title="">News</a></li>
-                                <li><a href="gallery_1.html" title="">Photo & Video</a></li>
+                                <li><a href="gallery_1.html" title="">Photo & Video Gallery</a></li>
                                 <li><a href="restaurant_1.html" title="">Restaurant</a></li>
-                                <li><a href="#" title="">Gift Card</a></li>
+                                <li><a href="#" title="">Offers</a></li>
+                                <li><a href="tems_condition_1.html" title="">Term & Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-lg-offset-1 col-md-offset-1  ">
+                        <div class="list-content">
+                            <ul><br><br><br>
+                                <li><a href="contact.html" title="">Contact Us</a></li>
+                                <li><a href="https://maps.app.goo.gl/6BWpyyHtphbAAUUFA" title="Location">Our Location</a></li>
+                                <li><a href="tel:8655556688" title="Phone no">Call Us</a></li>
+                                <li><a href="goodvibeshotels@gmail.com" title="E-Mails">G-Mail</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1114,22 +1135,14 @@
                         Copyright © 2023 by <a href="#" title="">hospitalityminds.</a> GOOD VIBES HOTEL
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
-                        <!-- <div class="payments text-right">
-                            <ul>
-                                <li>
-                                    <a href="#" title="Paypal"><img src="images/Home-1/Paypal.png" alt="Paypal"></a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Visa"><img src="images/Home-1/Visa.png" alt="Visa"></a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Master"><img src="images/Home-1/Master-card.png" alt="Master"></a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Discover"><img src="images/Home-1/Discover.png" alt="Discover"></a>
-                                </li>
-                            </ul>
-                        </div> -->
+                        
+                        <div class="footer-social-icon">
+                            <a href="#" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#" title="Facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                            <a href="#" title="Tripadvisor"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+                            <a href="#" title="Isnstagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </div>
+                    
                     </div>
                 </div>
             </div>

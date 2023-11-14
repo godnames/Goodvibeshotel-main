@@ -25,20 +25,24 @@
 </head>
 
 <body>
+    <a href="#" class="whatsapp-icon" onclick="openWhatsAppChat()" style="display: inline-flex; align-items: center; text-decoration: none;">
+        <img src="images/whatsapp.png" alt="WhatsApp Icon" style="vertical-align: middle; max-width: 70px;">
+        
+    </a>
     <!-- HEADER -->
     <header class="header-sky">
         <div class="container">
             <!--HEADER-TOP-->
-            <div class="header-top no-border">
+            <div class="header-top">
                 <div class="header-top-left">
-                    <span><i class="ion-android-cloud-outline"></i>18 °C</span>
-                    <span><i class="ion-ios-location-outline"></i>121 King Str, Melbourne Victoria</span>
-                    <span><i class="fa fa-phone" aria-hidden="true"></i> 1-548-854-8898</span>
+                    <span><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:goodvibeshotels@gmail.com" style="color: white;">goodvibeshotels@gmail.com</a></span>
+                    <span><i class="ion-ios-location-outline"></i><a href="https://maps.app.goo.gl/6BWpyyHtphbAAUUFA" style="color: white;" target="_blank">603, Thawar Apartments, Carter Road, Above Canara Bank, Borivali East, Mumbai - 400066</a></span>
+                    <span><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:8655556688" style="color: white;">+91 8655556688</a></span>
                 </div>
-                <div class="header-top-right">
+                <!-- <div class="header-top-right">
                     <ul>
-                        <li class="dropdown"><a href="login.html" title="Login" class="dropdown-toggle">LOGIN</a></li>
-                        <li class="dropdown"><a href="register.html" title="Register" class="dropdown-toggle">REGISTER</a></li>
+                        <li class="dropdown"><a href="login.html" title="LOGIN" class="dropdown-toggle">LOGIN</a></li>
+                        <li class="dropdown"><a href="register.html" title="REGISTER" class="dropdown-toggle">REGISTER</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">USD <b class="caret"></b></a>
                             <ul class="dropdown-menu">
@@ -54,13 +58,13 @@
                             </ul>
                         </li>
                     </ul>
-                </div>
+                </div> -->
             </div>
             <!-- END/HEADER-TOP -->
         </div>
         <!-- MENU-HEADER -->
-        <div class="menu-header ">
-            <nav class="navbar navbar-fixed-top bg-menu">
+        <div class="menu-header">
+            <nav class="navbar navbar-fixed-top">
                 <div class="container">
                     <div class="navbar-header ">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -69,11 +73,12 @@
                             <span class="icon-bar "></span>
                             <span class="icon-bar "></span>
                         </button>
-                        <a class="navbar-brand" href="index.html" title="Skyline"><img src="images/Home-1/sky-logo-header.png" alt="#"></a>
+                        <a class="navbar-brand" href="index.html" title="Good Vibes"><img src="images/Home-1/gvh-header1-logo.png" alt="#"></a>
                     </div>
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="dropdown ">
+                            <li><a href="index.html" title="Home">Home</a></li>
+                            <!-- <li class="dropdown ">
                                 <a href="index.html" title="Home" class="dropdown-toggle" data-toggle="dropdown">Home<b class="caret"></b></a>
                                 <ul class="dropdown-menu icon-fa-caret-up submenu-hover">
                                     <li><a href="index.html" title="">Home 1</a></li>
@@ -81,8 +86,21 @@
                                     <li><a href="index_3.html" title="">Home 3</a></li>
                                     <li><a href="index_4.html" title="">Home 4</a></li>
                                 </ul>
-                            </li>
+                            </li> -->
+                            <li><a href="about.html" title="About">About</a></li>
                             <li class="dropdown ">
+                                <a href="#room_1.html" title="Our Location" class="dropdown-toggle" data-toggle="dropdown">Our Locations<b class="caret"></b></a>
+                                <ul class="dropdown-menu icon-fa-caret-up submenu-hover">
+                                    <li><a href="#room_1.html" title="">Mumbai</a></li>
+                                    <li><a href="#room_2.html" title="">Goa</a></li>
+                                    <li><a href="#room_3.html" title="">Guwahati</a></li>
+                                    <li><a href="#room_4.html" title="">Lonavala</a></li>
+                                    <!-- <li><a href="room_5.html" title="">Room 5</a></li>
+                                    <li><a href="room_6.html" title="">Room 6</a></li>
+                                    <li><a href="room_detail.html" title="">Room Detail</a></li> -->
+                                </ul>
+                            </li>
+                            <!-- <li class="dropdown ">
                                 <a href="room_1.html" title="Room & Rate" class="dropdown-toggle" data-toggle="dropdown">Room & Rate<b class="caret"></b></a>
                                 <ul class="dropdown-menu icon-fa-caret-up submenu-hover">
                                     <li><a href="room_1.html" title="">Room 1</a></li>
@@ -93,8 +111,20 @@
                                     <li><a href="room_6.html" title="">Room 6</a></li>
                                     <li><a href="room_detail.html" title="">Room Detail</a></li>
                                 </ul>
-                            </li>
+                            </li> -->
                             <li class="dropdown ">
+                                <a href="#room_1.html" title="Our Hotels" class="dropdown-toggle" data-toggle="dropdown">Our Hotels<b class="caret"></b></a>
+                                <ul class="dropdown-menu icon-fa-caret-up submenu-hover">
+                                    <li><a href="#room_1.html" title="">Mumbai</a></li>
+                                    <li><a href="#room_2.html" title="">Goa</a></li>
+                                    <li><a href="#room_3.html" title="">Guwahati</a></li>
+                                    <li><a href="#room_4.html" title="">Lonavala</a></li>
+                                    <!-- <li><a href="room_5.html" title="">Room 5</a></li>
+                                    <li><a href="room_6.html" title="">Room 6</a></li>
+                                    <li><a href="room_detail.html" title="">Room Detail</a></li> -->
+                                </ul>
+                            </li>
+                            <!-- <li class="dropdown ">
                                 <a href="#" title="  Page" class="dropdown-toggle" data-toggle="dropdown">Page<b class="caret"></b></a>
                                 <ul class="dropdown-menu icon-fa-caret-up submenu-hover">
                                     <li><a href="guestbook.html" title="">Guest Book</a></li>
@@ -133,26 +163,27 @@
                                     <li><a href="comming_soon.html" title="">Comming Soon</a></li>
                                     <li><a href="check_out.html" title="">Check Out</a></li>
                                 </ul>
-                            </li>
+                            </li> -->
                             <li class="dropdown ">
-                                <a href="reservation_1.html" title="Reservation" class="dropdown-toggle" data-toggle="dropdown">RESERVATION<b class="caret"></b></a>
-                                <ul class="dropdown-menu icon-fa-caret-up submenu-hover">
-                                    <li><a href="reservation_1.html" title="">Reservation 1</a></li>
-                                    <li><a href="reservation_2.html" title="">Reservation 2</a></li>
-                                    <li><a href="reservation_3.html" title="">Reservation 3</a></li>
+                                <a href="#reservation_1.html" title="Offers" class="dropdown-toggle" data-toggle="dropdown">Offers<b class="caret"></b></a>
+                                <ul class="dropdown-menu icon-fa-caret-up submenu-hover" style="width: 230px;">
+                                    <li><a href="#reservation_1.html" title="">Weddings by Good Vibes</a></li>
+                                    <li><a href="#reservation_2.html" title="">Events by Good Vibes</a></li>
+                                    <!-- <li><a href="reservation_3.html" title="">Reservation 3</a></li>
                                     <li><a href="reservation_4.html" title="">Reservation 4</a></li>
-                                    <li><a href="reservation_5.html" title="">Reservation 5</a></li>
+                                    <li><a href="reservation_5.html" title="">Reservation 5</a></li> -->
                                 </ul>
                             </li>
-                            <li class="dropdown ">
-                                <a href="gallery_1.html" title="Gallery" class="dropdown-toggle" data-toggle="dropdown">Gallery <b class="caret"></b></a>
-                                <ul class="dropdown-menu icon-fa-caret-up submenu-hover">
+                            <li >
+                                <a href="gallery_1.html" title="Gallery"  data-toggle="dropdown">Gallery </a>
+                                <!-- <ul class="dropdown-menu icon-fa-caret-up submenu-hover">
                                     <li><a href="gallery_1.html" title="">Gallery 1</a></li>
                                     <li><a href="gallery_2.html" title="">Gallery 2</a></li>
                                     <li><a href="gallery_3.html" title="">Gallery 3</a></li>
-                                </ul>
+
+                                </ul> -->
                             </li>
-                            <li><a href="about.html" title="About">About</a></li>
+                            
                             <li><a href="contact.html" title="Contact">Contact</a></li>
                         </ul>
                     </div>
@@ -167,7 +198,7 @@
         <div class="container">
             <div class="banner-content">
                 <h2>Contact us</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing</p>
+                <p></p>
             </div>
         </div>
     </section>
@@ -180,11 +211,12 @@
                     <div class="col-md-6 col-lg-5">
                         <div class="text">
                             <h2>Contact</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+                            <p>You can experience Good Vibes throughout your stay in every aspects right from booking process with ease to your stay. We are committed to give best value experience to all our esteemed guest. </p>
                             <ul>
-                                <li><i class=" fa ion-ios-location-outline"></i> 121 King Str, Melbourne Victoria</li>
-                                <li><i class="fa fa-phone" aria-hidden="true"></i> 1-548-854-8898</li>
-                                <li><i class="fa fa-envelope-o" aria-hidden="true"></i>hello@skylinehotel.com</li>
+                                <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:goodvibeshotels@gmail.com" style="color: #673245;">goodvibeshotels@gmail.com</a></li>
+                                <li><i class="fa fa-map-marker"></i> 603, Thawar Apartments, Carter Road,  Above Canara Bank, Borivali East, Mumbai - 400066</li>
+                                <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:8655556688" style="color: #673245;" >+91 8655556688</a></li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -219,13 +251,14 @@
 
     <!-- MAP -->
     <div class="section-map">
-       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6124.155496132579!2d144.95267262759506!3d-37.81807247133261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4dd58ef1f9%3A0x924c91f561a4fd11!2s121+King+St%2C+Melbourne+VIC+3000%2C+%C3%9Ac!5e0!3m2!1svi!2s!4v1510819444662" height="470" allowfullscreen></iframe>
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.20549208827!2d72.8592424743378!3d19.229874047125602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b0d08abfdb03%3A0xcc655d023c8eff25!2sHospitality%20Minds!5e0!3m2!1sen!2sin!4v1699874589274!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.20549208827!2d72.8592424743378!3d19.229874047125602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b0d08abfdb03%3A0xcc655d023c8eff25!2sHospitality%20Minds!5e0!3m2!1sen!2sin!4v1699874589274!5m2!1sen!2sin" height="470" allowfullscreen></iframe>
     </div>
     <!-- END / MAP -->
 
   <!--FOOTER-->
     <footer class="footer-sky">
-        <div class="footer-top">
+        <!-- <div class="footer-top">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1">
@@ -258,8 +291,8 @@
                     </div>
                 </div>
             </div>
-            <!-- /container -->
-        </div>
+            <!-- /container -
+        </div> -->
         <!-- /footer-top -->
         <div class="footer-mid">
             <div class="container">
@@ -297,7 +330,7 @@
                                 <li><a href="#" title="">News</a></li>
                                 <li><a href="gallery_1.html" title="">Photo & Video</a></li>
                                 <li><a href="restaurant_1.html" title="">Restaurant</a></li>
-                                <li><a href="#" title="">Gift Card</a></li>
+                                <!-- <li><a href="#" title="">Gift Card</a></li> -->
                             </ul>
                         </div>
                     </div>
